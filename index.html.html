@@ -1,0 +1,70 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CosDream｜cosplay 夢工廠</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Cos<span>Dream</span></div>
+    <nav>
+      <a href="index.html" class="active">首頁</a>
+      <a href="products.html">產品介紹</a>
+      <a href="contact.html">聯絡我們</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>化身你心中的角色</h1>
+      <p>專業 cosplay 服裝、道具與配件，讓每一次出角都閃耀全場。</p>
+      <a href="products.html" class="btn">探索產品</a>
+      <button id="promoBtn" class="btn btn-outline">領取優惠</button>
+    </div>
+    <div class="carousel">
+      <div class="slides">
+        <img src="https://picsum.photos/id/1011/600/400" alt="cosplay 服裝展示" class="slide active">
+        <img src="https://picsum.photos/id/1027/600/400" alt="cosplay 道具展示" class="slide">
+        <img src="https://picsum.photos/id/1062/600/400" alt="cosplay 配件展示" class="slide">
+      </div>
+      <button class="carousel-btn prev" aria-label="上一張">&#10094;</button>
+      <button class="carousel-btn next" aria-label="下一張">&#10095;</button>
+      <div class="dots"></div>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="feature-card">
+      <h3>精緻工藝</h3>
+      <p>每一件服裝皆由專業裁縫手工製作，細節到位。</p>
+    </div>
+    <div class="feature-card">
+      <h3>多元角色</h3>
+      <p>動漫、遊戲、影視角色應有盡有，持續更新。</p>
+    </div>
+    <div class="feature-card">
+      <h3>快速出貨</h3>
+      <p>現貨商品 48 小時內出貨，活動不遲到。</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 CosDream. 保留所有權利。</p>
+  </footer>
+
+  <!-- 優惠彈窗 -->
+  <div id="promoModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>限時優惠</h2>
+      <p>輸入優惠碼 <strong>COS2026</strong>，全站服裝享 85 折！</p>
+      <p class="small">活動至 2026/12/31 止。</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
